@@ -2,7 +2,7 @@
 
 ## Current release
 
-**Update Shelf 0.23.0 (build 50)** for Apple silicon Macs. The download is free.
+**Update Shelf 0.23.0 (build 50)** for Apple silicon Macs. The download is free. **Support development** is an optional PayPal button. It does not change the app.
 
 [Download page](https://webservices-org.github.io/update-shelf-releases/)
 
