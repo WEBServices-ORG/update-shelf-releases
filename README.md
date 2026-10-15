@@ -2,11 +2,11 @@
 
 ## Current release
 
-**Update Shelf 0.23.0 (build 50)** for Apple silicon Macs. This replaces 0.13.0 as the current download.
+**Update Shelf 0.23.0 (build 50)** for Apple silicon Macs. The download is free.
 
 [Download page](https://webservices-org.github.io/update-shelf-releases/)
 
-The app and the disk image are both Developer ID signed, Apple-notarized, and stapled. Opening the app does not start a check. Payment does not unlock features.
+The app and the disk image are both Developer ID signed, Apple-notarized, and stapled. Opening the app does not start a check.
 
 SHA-256: `471eb39c657343187476889038bbe495dbc970359abb1fd8fc5f938d064dbb23`
 
@@ -16,4 +16,4 @@ SHA-256: `471eb39c657343187476889038bbe495dbc970359abb1fd8fc5f938d064dbb23`
 2. Drag **Update Shelf** into **Applications**.
 3. Open Update Shelf from Applications.
 
-This repository is the current download and landing page. Older release files stay in git history and are not in this snapshot.
+This repository is the public download and landing page. Older release files stay in git history and are not in this snapshot.
