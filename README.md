@@ -2,19 +2,19 @@
 
 ## Current release
 
-**Update Shelf 0.23.5 (build 64)** for Apple silicon Macs. The download is free. **Support development** is an optional PayPal button. It does not change the app.
+**Update Shelf 0.23.6 (build 65)** for Apple silicon Macs. The download is free. **Support development** is an optional PayPal button. It does not change the app.
 
 [Download page](https://webservices-org.github.io/update-shelf-releases/)
 
 The app and the disk image are both Developer ID signed, Apple-notarized, and stapled. Opening the app does not start a check.
 
-Build 64 adds a stable GitHub release check for oMLX using its exact app identity. It ignores development tags even when GitHub mislabels them as stable, and reads release metadata only. It also retains build 63's repair for a missing or stale opted-in background launch-agent registration.
+Build 65 fixes the command-line scan startup crash by handling `--scan-json` before AppKit initialization. It also updates the Homebrew bridge compatibility pin after reviewing the installed Homebrew revision and passing its focused upstream tests.
 
-SHA-256: `b2ca7a3324d60f0d77985aa11bcc7d03420c1eb6d35a3746112ce6cc888a3f54`
+SHA-256: `2cf3b2f6b7060a2d563e16f83cd14b36f22a61a3ccce4cf0ad5df3f0e7e0a4ee`
 
 ## Install
 
-1. Download and open `Update-Shelf-0.23.5-Apple-Silicon.dmg`.
+1. Download and open `Update-Shelf-0.23.6-Apple-Silicon.dmg`.
 2. Drag **Update Shelf** into **Applications**.
 3. Open Update Shelf from Applications.
 
