@@ -2,19 +2,19 @@
 
 ## Current release
 
-**Update Shelf 0.23.3 (build 61)** for Apple silicon Macs. The download is free. **Support development** is an optional PayPal button. It does not change the app.
+**Update Shelf 0.23.4 (build 63)** for Apple silicon Macs. The download is free. **Support development** is an optional PayPal button. It does not change the app.
 
 [Download page](https://webservices-org.github.io/update-shelf-releases/)
 
 The app and the disk image are both Developer ID signed, Apple-notarized, and stapled. Opening the app does not start a check.
 
-This release stops running Background Task Management checks during routine permission refreshes and scheduled checks. The administrator-authorized legacy-service check runs only when you explicitly enable the background check and macOS cannot find the old service.
+Build 63 repairs a missing or stale background launch-agent registration on first launch after an app build/path change, when automatic checks were already enabled. It reuses macOS's approved `SMAppService` registration and does not invoke `sfltool` during passive checks.
 
-SHA-256: `753b54592d3bef4197a53c93cb6d42ba58f3932456f7a623ae7d76a718c862af`
+SHA-256: `ddc058ff344a23775918e996159888a7d2eb53721e64aa7f2e0336367ce7076b`
 
 ## Install
 
-1. Download and open `Update-Shelf-0.23.3-Apple-Silicon.dmg`.
+1. Download and open `Update-Shelf-0.23.4-Apple-Silicon.dmg`.
 2. Drag **Update Shelf** into **Applications**.
 3. Open Update Shelf from Applications.
 
