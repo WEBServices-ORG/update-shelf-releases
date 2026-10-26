@@ -2,20 +2,20 @@
 
 ## Current release
 
-**Update Shelf 0.23.6 (build 65)** for Apple silicon Macs. The download is free. **Support development** is an optional PayPal button. It does not change the app.
+**Update Shelf 0.26.1 (build 69)** for Apple silicon Macs. Free download; Support development is optional.
 
 [Download page](https://webservices-org.github.io/update-shelf-releases/)
 
-The app and the disk image are both Developer ID signed, Apple-notarized, and stapled. Opening the app does not start a check.
+The app and DMG are Developer ID signed, Apple-notarized, and stapled.
 
-Build 65 fixes the command-line scan startup crash by handling `--scan-json` before AppKit initialization. It also updates the Homebrew bridge compatibility pin after reviewing the installed Homebrew revision and passing its focused upstream tests.
+This release adds reviewed multi-update selection, a serial update queue, Needs attention reasons and safe retries, Re-scan, and reversible Ignore with an Ignored items view. Ignore affects only Needs attention visibility; automatic update rules stay unchanged. Opening the app does not start a check.
 
-SHA-256: `2cf3b2f6b7060a2d563e16f83cd14b36f22a61a3ccce4cf0ad5df3f0e7e0a4ee`
+Source coverage varies. App Store updates remain managed by Apple; unsupported app updaters are handoffs, not direct installs.
+
+SHA-256: `a5c2eb127fa9070463d230d8252e04ce49149dba6306d0b92db302eff3440b1d`
 
 ## Install
 
-1. Download and open `Update-Shelf-0.23.6-Apple-Silicon.dmg`.
-2. Drag **Update Shelf** into **Applications**.
-3. Open Update Shelf from Applications.
+Download `Update-Shelf-0.26.1-Apple-Silicon.dmg`, open it, and drag Update Shelf into Applications.
 
-This repository is the public download and landing page. Older release files stay in git history and are not in this snapshot.
+Older files remain in release history; only the current DMG is in this website snapshot.
