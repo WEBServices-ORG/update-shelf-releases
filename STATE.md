@@ -1,5 +1,9 @@
 # Distribution state
 
-Version: v0.26.1 (app 0.26.1, build 69)
+Version: v1.7.0 (acceptance prerelease, build 91); stable/latest remains v0.26.1/build69.
+
+1.7 adds whole-app postponement, independent of permanent ignore and skipped versions. Source tag v1.7.0 at f8729eff727221c1e8079f9cd2b1983732c9ddd4 in the private source repository. 329 tests / 42 suites, broker/lock checks, independent review and isolated packaged postponement/relaunch/resume/accelerated-expiry checks passed. The update feed offers build91; README and website link to the acceptance release. Stable download and latest designation remain unchanged. Broader accessibility, lifecycle, second-host and failure/denial coverage remain open. This distribution record does not claim installed-app replacement.
+
+Apple accepted app submission 81782e81-546b-4b5e-8347-c6b8ca188546 and disk-image submission 9ed2808d-9b9f-4812-b3ff-29c1be8d4c34. Both tickets are stapled and validated; Gatekeeper accepts both as Notarized Developer ID. Mounted app matches all 188 file/directory/symlink entries. Final DMG SHA-256: `6cb277e83e717bf57c2b1a9fbb284daae2e95e6137c1b2c93ed0c2117c55faeb`; ZIP SHA-256: `979bf3b5deab04a962797a91fed0b21516cee453789d0c5658a6a1153adce819`. Sparkle signature verified for the exact 3,079,809-byte ZIP.
 
 Published notarized release replacing 0.23.6. SHA-256 `a5c2eb127fa9070463d230d8252e04ce49149dba6306d0b92db302eff3440b1d`. Apple accepted app `91e96a39-30ba-41d8-bf08-36b61e7fecf6` and DMG `79fcf257-58eb-43b1-9991-d0b1818f676e`. Both tickets stapled and Gatekeeper accepted. Installed app matches signed bundle; automation switches restored and background process verified. GitHub release v0.26.1 is public. Pages run 40387917194 completed successfully for release page commit 0ba894e. The live page reports 0.26.1/build 69; the downloaded DMG and GitHub asset digest both match the checksum above.

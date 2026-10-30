@@ -1,6 +1,12 @@
 # Update Shelf Releases
 
-## Current release
+## Latest acceptance prerelease
+
+**Update Shelf 1.7.0 (build 91)** adds Tomorrow / In a week postponement, a separate Postponed list, and Resume now. Permanent ignore and skipped versions remain independent. Includes the remembered library, connected update sources and searchable history introduced in 1.4–1.6.
+
+[Download 1.7 and read release notes](https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v1.7.0). Apple silicon; Developer ID signed and Apple-notarized app and disk image. The in-app update feed offers this acceptance build. Broader accessibility, physical lifecycle, second-host and failure/denial checks remain open; stable/latest remains 0.26.1 below.
+
+## Stable release
 
 **Update Shelf 0.26.1 (build 69)** for Apple silicon Macs. Free download; Support development is optional.
 
