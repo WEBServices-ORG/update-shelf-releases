@@ -1,6 +1,6 @@
 # Distribution state
 
-Version: v1.8.1, build99; published as owner-authorized stable/latest; website/feed deployment verification in progress.
+Version: v1.8.1, build99; published as owner-authorized stable/latest; website/feed deployed and verified.
 
 Clearer unsupported-source explanations, consistent partial-check results, dated automatic-attempt status, and more useful installation errors. Ambiguous installed packages remain blocked for review. No new installation authority.
 
@@ -13,3 +13,5 @@ Mac mini installed1.8.1/build99; version visible in Settings. Existing history/m
 Final build99 also avoids unnecessary per-row running-app filesystem checks. Installed full refresh, history search, selection and corrected Chatbox detail pass. Observed CPU2.4% after refresh versus97.6% in rejected build98; this is a session observation, not a general benchmark. Fresh installation safety checks are unchanged.
 
 All four final build99 draft assets were downloaded and byte-compared before publication. GitHub latest is1.8.1; no build98 artifact was publicly released.
+
+Pages run41396615595 for07dab6343002bb6136a6b63e594a0679a7372339 succeeded; live HTML/appcast byte-match committed files and offer build99. MacBook actual upgrade remains pending owner action.
