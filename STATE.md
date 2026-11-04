@@ -2,7 +2,7 @@
 
 Version: v1.8.6/build109. Private source/tag5752d0f575240a8ce1652c7e625f9da4a21c5bac; product source52398df. Generic missing-version placement and row wording corrected. Unknown versions stay unknown; failed checks/conflicts and installation refusal preserved.365tests/45suites plus broker/lock checks, independent review and packaged109 GUI pass. No launch scan; saved data and installed107 scheduler preserved. App/DMG signed, notarized, stapled and Gatekeeper accepted;121mounted entries and four uploaded assets match, Sparkle signature verifies.
 
-Broader QA remains partial; generic source search remains planned1.9. Owner updates through the app; no direct installed replacement. Publication/live feed verification in progress.
+Broader QA remains partial; generic source search remains planned1.9. Owner updates through the app; no direct installed replacement. Published stable/latest. Live HTML/feed byte-match8a37b28; installed1.8.5actual updater offers1.8.6 and Install Update, left open for owner. Targeted release complete; broader QA remains partial.
 
 ## Previous release evidence
 
