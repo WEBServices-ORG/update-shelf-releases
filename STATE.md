@@ -11,4 +11,4 @@ App notarization4ba59bf4-c906-4a60-aa58-1f1bbc511103 and DMG notarization868d3d0
 DMG SHA256 `b27c3e44cf7c0c4027dfaa52f299a963948a0653f42241ee50c6cf26bb49e7a4`.
 ZIP SHA256 `ab755718ce66b09526f8bf73d6e4b8d9fb7511e4c21936bee1af019caedf0573`,3031109bytes.
 
-Broader QA remains partial. Physical accessibility, natural scheduler/sleep delivery and remaining standard-account/denial checks remain open. Owner self-update and live Pages deployment verification pending.
+Broader QA remains partial. Physical accessibility, natural scheduler/sleep delivery and remaining standard-account/denial checks remain open. Pages run41777699342 succeeded; live HTML/feed byte-match9191e33 and offer107. Installed1.8.4actual updater dialog offers1.8.5; left open for owner installation. Actual owner replacement remains pending.
