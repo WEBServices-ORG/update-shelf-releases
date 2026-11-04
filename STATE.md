@@ -1,6 +1,6 @@
 Documentation version: v0.9.0-site.1. App release remains0.9.0/build113.
 
-Public capability explanation updated2026-11-04: distinguish supported checks, reviewed eligible installs, App Store/vendor handoffs, postponement/ignore/skip, history, source connections and separate automation opt-ins. State unknown-version/coverage and broader-QA limits. Mock interface explicitly labelled illustrative. No app binaries, appcast, hashes or download targets changed. Verification and Pages publication pending.
+Public capability explanation updated2026-11-04: distinguish supported checks, reviewed eligible installs, App Store/vendor handoffs, postponement/ignore/skip, history, source connections and separate automation opt-ins. State unknown-version/coverage and broader-QA limits. Mock interface explicitly labelled illustrative. No app binaries, appcast, hashes or download targets changed. Published page33a7b9e: Pages run41785610510 succeeded; live HTML and unchanged appcast byte-match local files. Nine capability cards and unchanged links verified. Browser preview host unavailable; fresh visual layout check remains unverified.
 
 # Distribution state
 
