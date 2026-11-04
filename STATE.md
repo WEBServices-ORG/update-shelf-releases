@@ -1,3 +1,7 @@
+Documentation version: v0.9.0-site.1. App release remains0.9.0/build113.
+
+Public capability explanation updated2026-11-04: distinguish supported checks, reviewed eligible installs, App Store/vendor handoffs, postponement/ignore/skip, history, source connections and separate automation opt-ins. State unknown-version/coverage and broader-QA limits. Mock interface explicitly labelled illustrative. No app binaries, appcast, hashes or download targets changed. Verification and Pages publication pending.
+
 # Distribution state
 
 Version: v0.9.0/build113. Owner-selected displayed-version reset; internal113continues above installed109. Name/size sorting and larger footer/caption/log text.367tests/46suites plus broker/lock tests, independent review, packaged111sorting/persistence,112readability and final113layout/sorting smoke pass. No launch update scan. Installed1.8.6/build109preserved for owner self-update.
