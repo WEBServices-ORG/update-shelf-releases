@@ -1,5 +1,13 @@
 # Distribution state
 
+Version: v1.8.6/build109. Private source/tag5752d0f575240a8ce1652c7e625f9da4a21c5bac; product source52398df. Generic missing-version placement and row wording corrected. Unknown versions stay unknown; failed checks/conflicts and installation refusal preserved.365tests/45suites plus broker/lock checks, independent review and packaged109 GUI pass. No launch scan; saved data and installed107 scheduler preserved. App/DMG signed, notarized, stapled and Gatekeeper accepted;121mounted entries and four uploaded assets match, Sparkle signature verifies.
+
+Broader QA remains partial; generic source search remains planned1.9. Owner updates through the app; no direct installed replacement. Publication/live feed verification in progress.
+
+## Previous release evidence
+
+# Distribution state
+
 Version: v1.8.5, build107. Owner-authorized stable/latest publication2026-11-04. Source tag v1.8.5 points to8069e30dcadfa89511781aa5b38e0a6ef016198d; product code7a4ac9f. Installed Mac mini remains1.8.4/build105 for owner in-app update.
 
 GitHub limits now show a local retry time and share a bounded persisted pause across supported GitHub paths; unavailable versions remain unknown. Bottom source-status bar minimum height doubles to104points. No update checks on app launch. Generic source search remains planned1.9.
