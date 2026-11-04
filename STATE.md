@@ -1,6 +1,6 @@
 # Distribution state
 
-Version: v1.8.4, build105. Owner-authorized stable/latest publication prepared2026-11-04; live verification pending. Owner installs through in-app update; installed Mac mini remains1.8.3/build104 until then.
+Version: v1.8.4, build105. Owner-authorized stable/latest published2026-11-04. All four draft assets downloaded and byte-compared. GitHub latest1.8.4 verified; Pages run41772037015 succeeded and live HTML/feed byte-match36112da, offering105. Owner installs through in-app update; installed Mac mini remains1.8.3/build104 until then.
 
 Opening or reopening Update Shelf now shows saved results without starting an update check. Manual checks and separately enabled scheduled checks remain available. Saved results cannot authorize installation until refreshed. Broader release QA remains partial.
 
