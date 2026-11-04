@@ -1,11 +1,14 @@
 # Distribution state
 
-Version: v1.8.4, build105. Owner-authorized stable/latest published2026-11-04. All four draft assets downloaded and byte-compared. GitHub latest1.8.4 verified; Pages run41772037015 succeeded and live HTML/feed byte-match36112da, offering105. Owner installs through in-app update; installed Mac mini remains1.8.3/build104 until then.
+Version: v1.8.5, build107. Owner-authorized stable/latest publication2026-11-04. Source tag v1.8.5 points to8069e30dcadfa89511781aa5b38e0a6ef016198d; product code7a4ac9f. Installed Mac mini remains1.8.4/build105 for owner in-app update.
 
-Opening or reopening Update Shelf now shows saved results without starting an update check. Manual checks and separately enabled scheduled checks remain available. Saved results cannot authorize installation until refreshed. Broader release QA remains partial.
+GitHub limits now show a local retry time and share a bounded persisted pause across supported GitHub paths; unavailable versions remain unknown. Bottom source-status bar minimum height doubles to104points. No update checks on app launch. Generic source search remains planned1.9.
 
-352tests/44suites, broker/lock checks and independent review pass. Signed packaged app launch/relaunch retained saved scan bytes with both automation opt-ins enabled. Explicit manual check completed and advanced timestamp. Candidate quit normally; installed app untouched. Background repair marker temporarily isolated during test and restored; service path/build unchanged. Broader QA and actual owner self-update remain unverified.
+363tests/45suites, broker/lock checks and independent review pass. Packaged107 launch preserves saved data, manual check shows consistent cooldown across5apps, early retry stays paused, and post-expiry retry completes4of4source checks with0failures. Taller footer visually verified. Test app quit; temporary repair marker restored105, both opt-ins and installed service preserved. No direct installed replacement.
 
-App notarization5523b0d7-1031-49e5-8653-7a4a6217288e and DMG notarizationf20be15c-b7a1-4fbb-b28b-822c45fc7f9c Accepted. Both stapled; Gatekeeper and disk checks pass. Mounted app matches121entries; Sparkle signature verified.
+App notarization4ba59bf4-c906-4a60-aa58-1f1bbc511103 and DMG notarization868d3d0f-af6d-47d0-9a6f-52d15bab6055 Accepted. Both stapled and Gatekeeper accepted;121mounted entries match and Sparkle signature verifies. Four draft assets downloaded and byte-compared.
 
-DMG SHA256 `120f5062d7a0efc148d9c45d768dbe781f4d0d60f72071692fa4ddbc24a38224`. ZIP SHA256 `0941cfce7a4c9405b9af0f8c9cfcc0f158209b64d4ba82d958fe815786fa9b47`, 3021179bytes.
+DMG SHA256 `b27c3e44cf7c0c4027dfaa52f299a963948a0653f42241ee50c6cf26bb49e7a4`.
+ZIP SHA256 `ab755718ce66b09526f8bf73d6e4b8d9fb7511e4c21936bee1af019caedf0573`,3031109bytes.
+
+Broader QA remains partial. Physical accessibility, natural scheduler/sleep delivery and remaining standard-account/denial checks remain open. Owner self-update and live Pages deployment verification pending.
