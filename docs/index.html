@@ -37,30 +37,10 @@
     .support svg { width:17px; }
     .version { color:var(--muted); font-size:.86rem; line-height:1.45; }
     .product { position:relative; }
-    .app-window { overflow:hidden; border:1px solid #2a2e38; border-radius:18px; background:#0d0f14; box-shadow:0 32px 90px rgba(0,0,0,.52); transform:perspective(1200px) rotateY(-4deg) rotateX(1deg); }
-    .titlebar { height:38px; border-bottom:1px solid #20232b; display:flex; align-items:center; padding:0 15px; gap:7px; }
-    .dot { width:10px; height:10px; border-radius:50%; background:#363a43; }
-    .app-body { display:grid; grid-template-columns:132px 1fr; min-height:390px; }
-    .sidebar { padding:22px 14px; border-right:1px solid #20232b; background:#0b0d12; }
-    .app-name { display:flex; align-items:center; gap:8px; font-size:.78rem; font-weight:700; margin-bottom:25px; }
-    .app-name img { width:26px; height:26px; border-radius:7px; }
-    .side-item { margin:7px 0; padding:9px 10px; border-radius:8px; color:#777e89; font-size:.68rem; }
-    .side-item.active { color:white; background:#14234a; border:1px solid #2755ac; }
-    .workspace { padding:28px; }
-    .workspace .label { color:var(--blue-soft); font-size:.56rem; font-weight:800; letter-spacing:.18em; }
-    .workspace h2 { margin:7px 0 20px; font-size:1.55rem; letter-spacing:-.03em; }
-    .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:9px; }
-    .stat { padding:14px; border:1px solid #292d36; border-radius:10px; background:#13151b; }
-    .number { font-size:1.35rem; font-weight:750; }
-    .stat small { display:block; color:#7f8691; margin-top:3px; font-size:.58rem; }
-    .rows { margin-top:19px; }
-    .row { display:grid; grid-template-columns:26px 1fr auto; gap:11px; align-items:center; padding:12px 8px; border-bottom:1px solid #1b1e25; }
-    .cube { width:26px; height:26px; display:grid; place-items:center; border-radius:7px; background:#171c28; color:var(--blue-soft); font-size:.75rem; }
-    .row strong { display:block; font-size:.72rem; }
-    .row small { color:#767d88; font-size:.58rem; }
-    .review { padding:6px 8px; border-radius:7px; background:#26190d; color:var(--orange); font-size:.56rem; font-weight:700; }
-    .verified { position:absolute; right:-18px; bottom:-20px; padding:14px 17px; border:1px solid #2b303a; border-radius:13px; background:rgba(18,21,28,.95); box-shadow:0 16px 40px rgba(0,0,0,.42); font-size:.76rem; }
-    .verified span { color:#73e0a5; margin-right:7px; }
+    .product-screenshot { display:block; overflow:hidden; border:1px solid #2a2e38; border-radius:14px; box-shadow:0 32px 90px rgba(0,0,0,.52); }
+    .product-screenshot img { display:block; width:100%; height:auto; }
+    .screenshot-caption { margin:14px 0 0; text-align:center; color:var(--muted); font-size:.8rem; line-height:1.5; }
+    .screenshot-caption a { text-underline-offset:3px; }
     .features { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; border:1px solid var(--line); border-radius:18px; overflow:hidden; background:var(--line); margin:12px 0 112px; }
     .feature { background:var(--surface); padding:30px; }
     .feature b { display:block; margin-bottom:9px; font-size:1rem; }
@@ -76,7 +56,7 @@
     .footer-links a { color:var(--muted); text-decoration:none; }
     .footer-links a:hover { color:var(--text); }
     @media (max-width:850px) { .hero{grid-template-columns:1fr;padding-top:44px;gap:58px} h1{max-width:620px}.product{margin:0 8px}.features{grid-template-columns:1fr}.trust{align-items:flex-start;flex-direction:column}.hash{text-align:left} }
-    @media (max-width:560px) { .shell{width:min(100% - 28px,1160px)} nav{height:64px}.nav-link{display:none}.hero{padding:46px 0 70px} h1{font-size:3.65rem}.app-window{transform:none}.app-body{grid-template-columns:88px 1fr;min-height:330px}.sidebar{padding:18px 8px}.app-name span{display:none}.side-item{padding:8px 6px;font-size:.56rem}.workspace{padding:20px 14px}.stats{grid-template-columns:1fr 1fr}.stat:last-child{display:none}.row:nth-child(n+4){display:none}.verified{right:-5px}footer{align-items:flex-start;flex-direction:column;justify-content:center;gap:12px} }
+    @media (max-width:560px) { .shell{width:min(100% - 28px,1160px)} nav{height:64px}.nav-link{display:none}.hero{padding:46px 0 70px} h1{font-size:3.65rem}footer{align-items:flex-start;flex-direction:column;justify-content:center;gap:12px} }
     @media (prefers-reduced-motion:reduce) { html{scroll-behavior:auto}.download,.support{transition:none} }
   </style>
 </head>
@@ -100,28 +80,12 @@
           </div>
           <p class="version"><a href="https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.2">What’s new in 0.9.2</a><br>Reviewed compatibility with the current Homebrew revision restores the guarded helper transport. Opening the app still shows saved results without starting a check. Broader release testing remains in progress.</p>
         </div>
-        <div class="product" aria-label="Illustrative Update Shelf interface; example apps and counts">
-          <div class="app-window">
-            <div class="titlebar"><i class="dot"></i><i class="dot"></i><i class="dot"></i></div>
-            <div class="app-body">
-              <aside class="sidebar">
-                <div class="app-name"><img src="assets/update-shelf-icon-092.png" alt=""><span>Update Shelf</span></div>
-                <div class="side-item">All items</div><div class="side-item active">Update candidates</div><div class="side-item">App Store</div><div class="side-item">Homebrew</div><div class="side-item">Other apps</div>
-              </aside>
-              <div class="workspace">
-                <div class="label">SOFTWARE LIBRARY</div><h2>Update candidates</h2>
-                <div class="stats"><div class="stat"><span class="number">28</span><small>To review</small></div><div class="stat"><span class="number">236</span><small>In your library</small></div><div class="stat"><span class="number">20</span><small>Need a check</small></div></div>
-                <div class="rows">
-                  <div class="row"><span class="cube">◇</span><div><strong>Raycast</strong><small>Homebrew · update available</small></div><span class="review">Review</span></div>
-                  <div class="row"><span class="cube">◇</span><div><strong>Obsidian</strong><small>Homebrew · update available</small></div><span class="review">Review</span></div>
-                  <div class="row"><span class="cube">◇</span><div><strong>GitHub Desktop</strong><small>Homebrew · update available</small></div><span class="review">Review</span></div>
-                  <div class="row"><span class="cube">◇</span><div><strong>WordPress Studio</strong><small>Homebrew · update available</small></div><span class="review">Review</span></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="verified">Illustrative preview · example apps and counts</div>
-        </div>
+        <figure class="product" style="margin:0">
+          <a class="product-screenshot" href="assets/update-shelf-092-screenshot.svg" target="_blank" rel="noopener noreferrer" aria-label="View full-size Update Shelf screenshot">
+            <img src="assets/update-shelf-092-screenshot.svg" alt="Update Shelf 0.9.2 All items view showing a library of 400 apps and tools, source filters, sorting, update history and source status." width="2048" height="1152" fetchpriority="high">
+          </a>
+          <figcaption class="screenshot-caption">Update Shelf 0.9.2 · Actual app screenshot · <a href="assets/update-shelf-092-screenshot.svg" target="_blank" rel="noopener noreferrer">View full size</a></figcaption>
+        </figure>
       </section>
       <section class="features" aria-label="What Update Shelf does">
         <div class="feature"><b>Find supported updates</b><p>See Mac apps, Homebrew apps and tools, global npm packages, uv tools, and connected GitHub releases in one library. Search and sort by name or app-bundle size. Coverage depends on each source.</p></div>
