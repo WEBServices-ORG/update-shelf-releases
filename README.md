@@ -1,3 +1,5 @@
+<img src="docs/assets/update-shelf-icon.png" alt="Update Shelf app icon" width="128" height="128">
+
 # Update Shelf Releases
 
 ## Current stable release
