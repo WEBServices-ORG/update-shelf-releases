@@ -1,6 +1,6 @@
 # Distribution state
 
-Version: v1.8.3, build104. Owner-authorized stable/latest publication prepared on2026-11-04; live deployment verification pending.
+Version: v1.8.3, build104. Owner-authorized stable/latest published on2026-11-04. Four uploaded assets downloaded and byte-compared before publication. GitHub latest verified draftfalse/prereleasefalse. Pages run41771080119 succeeded; live HTML/appcast byte-match commit4b60aae.
 
 Fixes prerelease-to-final version comparisons and active-version detection for keg-only Homebrew tools. Apps that omit their version now receive an honest explanation and an Open app action. No new installation authority. Broader release QA remains partial.
 
