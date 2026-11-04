@@ -1,17 +1,11 @@
 # Distribution state
 
-Version: v1.8.1, build99; published as owner-authorized stable/latest; website/feed deployed and verified.
+Version: v1.8.3, build104. Owner-authorized stable/latest publication prepared on2026-11-04; live deployment verification pending.
 
-Clearer unsupported-source explanations, consistent partial-check results, dated automatic-attempt status, and more useful installation errors. Ambiguous installed packages remain blocked for review. No new installation authority.
+Fixes prerelease-to-final version comparisons and active-version detection for keg-only Homebrew tools. Apps that omit their version now receive an honest explanation and an Open app action. No new installation authority. Broader release QA remains partial.
 
-349 tests/44 suites plus broker/lock checks and independent reviews pass. Developer ID app and DMG are notarized and stapled, Gatekeeper accepted; installed and mounted app match121file/symlink entries. Sparkle archive signature verified. App notarizationb6bb5f3a-08d9-4450-9d82-7d278222682b; DMG notarization17c1a1e3-5166-45d7-a282-960382d0c6bb.
+352tests/44suites, broker/lock checks and independent review pass. Installed Mac mini GUI verifies corrected status/detail, Open app launch and retained settings. Broader QA remains partial; no claim of MacBook upgrade.
 
-DMG SHA-256: `4e07066e83c0fa7ba844a0eae004ef75e72b1f15e73bc7c552132a2400557f2f`; ZIP SHA-256: `b0cd215bc148f5f011635f58224db141c14b3e9f117e6ba7dd661dbe7d7f7da3`. ZIP length3085734bytes.
+App and disk image signed, notarized and stapled; Gatekeeper accepted. Mounted app matches121entries. Sparkle archive signature verified against existing Keychain account. App submission9eda3b83-5db5-4423-93f8-d9f8b71df5b4; DMG submission9319429b-d96f-4da0-8959-4b0b78a1d77c.
 
-Mac mini installed1.8.1/build99; version visible in Settings. Existing history/mappings remain byte-identical immediately after launch and key preferences are preserved. MacBook remains1.8.0 pending owner update. Broader keyboard/VoiceOver, natural timer/across-deadline sleep, second-host/standard-account and wider failure/denial coverage remain open. Stable designation is not full QA completion.
-
-Final build99 also avoids unnecessary per-row running-app filesystem checks. Installed full refresh, history search, selection and corrected Chatbox detail pass. Observed CPU2.4% after refresh versus97.6% in rejected build98; this is a session observation, not a general benchmark. Fresh installation safety checks are unchanged.
-
-All four final build99 draft assets were downloaded and byte-compared before publication. GitHub latest is1.8.1; no build98 artifact was publicly released.
-
-Pages run41396615595 for07dab6343002bb6136a6b63e594a0679a7372339 succeeded; live HTML/appcast byte-match committed files and offer build99. MacBook actual upgrade remains pending owner action.
+DMG SHA-256: `5e1c9f1d35eb4d403000df74e6ccbe94d0d94c2180fb6ae60db5edc125903d43`. ZIP SHA-256: `09312dcaae08acf6a6f38012dcdca4b193ecc9d392673f90b6618d37d9a9cf5a`; ZIP length3022079bytes. Source tagv1.8.3; build104 supersedes local102/103, which were not published.
