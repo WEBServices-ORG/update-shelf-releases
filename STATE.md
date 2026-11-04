@@ -2,7 +2,7 @@
 
 Version: v0.9.0/build113. Owner-selected displayed-version reset; internal113continues above installed109. Name/size sorting and larger footer/caption/log text.367tests/46suites plus broker/lock tests, independent review, packaged111sorting/persistence,112readability and final113layout/sorting smoke pass. No launch update scan. Installed1.8.6/build109preserved for owner self-update.
 
-App notarizationed2db30f-f9f0-4c11-b293-dff31cdad6dd and DMGc9759325-408e-4210-9fd9-fffaf7f40ec5 Accepted; both stapled and Gatekeeper accepted.121mounted entries match; Sparkle signature verifies. All four draft assets downloaded and byte-compared. Private source/tag d1794fa6209471826ac840226298d408809e114b; final product source eccc596. Live publication checks pending. Broader QA remains partial; next source-discovery/publisher work is separate0.10.
+App notarizationed2db30f-f9f0-4c11-b293-dff31cdad6dd and DMGc9759325-408e-4210-9fd9-fffaf7f40ec5 Accepted; both stapled and Gatekeeper accepted.121mounted entries match; Sparkle signature verifies. All four draft assets downloaded and byte-compared. Private source/tag d1794fa6209471826ac840226298d408809e114b; final product source eccc596. Published stable/latest. Live HTML/feed byte-matchcf22f34; actual installed1.8.6updater offers0.9.0with Install Update. Offer left open for owner. Targeted release complete; broader QA remains partial. Broader QA remains partial; next source-discovery/publisher work is separate0.10.
 
 ## Historical evidence
 
