@@ -1,5 +1,13 @@
 # Distribution state
 
+Version: v0.9.0/build113. Owner-selected displayed-version reset; internal113continues above installed109. Name/size sorting and larger footer/caption/log text.367tests/46suites plus broker/lock tests, independent review, packaged111sorting/persistence,112readability and final113layout/sorting smoke pass. No launch update scan. Installed1.8.6/build109preserved for owner self-update.
+
+App notarizationed2db30f-f9f0-4c11-b293-dff31cdad6dd and DMGc9759325-408e-4210-9fd9-fffaf7f40ec5 Accepted; both stapled and Gatekeeper accepted.121mounted entries match; Sparkle signature verifies. All four draft assets downloaded and byte-compared. Private source/tag d1794fa6209471826ac840226298d408809e114b; final product source eccc596. Live publication checks pending. Broader QA remains partial; next source-discovery/publisher work is separate0.10.
+
+## Historical evidence
+
+# Distribution state
+
 Version: v1.8.6/build109. Private source/tag5752d0f575240a8ce1652c7e625f9da4a21c5bac; product source52398df. Generic missing-version placement and row wording corrected. Unknown versions stay unknown; failed checks/conflicts and installation refusal preserved.365tests/45suites plus broker/lock checks, independent review and packaged109 GUI pass. No launch scan; saved data and installed107 scheduler preserved. App/DMG signed, notarized, stapled and Gatekeeper accepted;121mounted entries and four uploaded assets match, Sparkle signature verifies.
 
 Broader QA remains partial; generic source search remains planned1.9. Owner updates through the app; no direct installed replacement. Published stable/latest. Live HTML/feed byte-match8a37b28; installed1.8.5actual updater offers1.8.6 and Install Update, left open for owner. Targeted release complete; broader QA remains partial.
