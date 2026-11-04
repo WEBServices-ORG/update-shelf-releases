@@ -33,4 +33,4 @@ Not every Mac app or plug-in is covered. An update candidate is not necessarily 
 
 DMG SHA-256: `1d8bc9bd234fbb9fec601bc996f6ad82943401d65e0355b851aa01c8ef3f6f44`
 
-Older versions remain in release history; the primary download links to the current GitHub release asset.
+The public release shelf retains 0.9.0 and 0.9.1. Earlier releases and their downloadable assets were removed at the owner’s request; the primary download points to 0.9.1.

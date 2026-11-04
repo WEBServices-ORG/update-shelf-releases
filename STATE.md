@@ -1,3 +1,5 @@
+Documentation checkpoint: v0.9.1-site.1. App0.9.1/build115 published stable/latest. Pages run41787233706 and live HTML/feed verification pass; installed0.9.0actual updater offers0.9.1. Owner-authorized cleanup deleted27earlier releases and40pre-0.9.0Pages deployments; re-query confirms only0.9.0/0.9.1releases and post-resetdeployments. Obsolete0.26.1PagesDMG/sidecar and oldQAfeed removed from current tree; source history retained. About delivery complete; broader QA partial.
+
 Version: v0.9.1/build115. About-window/icon correction:367tests/46suites, broker/lock and expanded synthetic sleep-window harness pass; independent review approved. Signed packaged layout, links, keyboard focus and close/reopen verified. App/DMG notarized/stapled;121mounted entries match; Sparkle signature verifies. Installed113preserved for owner self-update. Broader QA partial. Private source/tag82b011b; publication in progress.
 
 Documentation version: v0.9.0-site.1. App release remains0.9.0/build113.
