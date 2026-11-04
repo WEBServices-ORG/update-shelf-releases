@@ -1,3 +1,5 @@
+Version: v0.9.3/build117 — published stable/latest with tag v0.9.3-build117 at0fdef61. App/DMG notarized/stapled/Gatekeeper accepted; all four uploaded and unauthenticated public assets byte-match final files. Pages41854522079 succeeded and canonical live HTML/appcast equal source. Installed0.9.2actual updater offers0.9.3with Install Update; left for owner. Source release tagd956dce. Main-only branch pushes. Corrective release Complete; broader QA remains partial.
+
 Release tag: v0.9.3-build117. The historical v0.9.3 name is reserved by immutable-release protection; no historical tag was changed. Displayed version0.9.3/build117 and asset bytes are unchanged. Four draft-uploaded assets byte-match local files.
 
 Version: v0.9.3/build117 — release prepared for approved stable/latest publication. App and DMG accepted by Apple, stapled and Gatekeeper accepted; Sparkle ZIP signature verifies. Main-only push rule applies. Source correction and targeted tests/review/packaged acceptance pass; broader QA remains partial. Final uploaded asset/live page/feed verification is pending publication. Historical screenshot remains labelled0.9.2.
