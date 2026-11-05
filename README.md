@@ -4,15 +4,15 @@
 
 ## Current stable release
 
-**Update Shelf 0.9.5 (build 119)** for Apple silicon Macs. Free download; Support development is optional.
+**Update Shelf 0.9.6 (build 121)** for Apple silicon Macs. Free download; Support development is optional.
 
-[Download page](https://webservices-org.github.io/update-shelf-releases/) · [Release notes](https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.5-build119)
+[Download page](https://webservices-org.github.io/update-shelf-releases/) · [Release notes](https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.6-build121)
 
-New in 0.9.5: A separate, manual read-only inventory of AU, VST, VST3, CLAP and AAX plug-ins in standard system/user folders. Inspect grouped products, every installed path, versions, duplicate copies and scan coverage. Choose Plug-ins, then Scan plug-ins. Latest plug-in versions are not checked and plug-ins are not installed; broader QA remains partial.
+New in 0.9.6: Clear numbered scan outcomes, completion timestamps including seconds, and VoiceOver scan-completion announcements without moving focus. Plug-in search tolerates surrounding whitespace and singular file/group labels are corrected. The manual read-only plug-in inventory covers AU, VST, VST3, CLAP and AAX in standard folders; latest plug-in versions are not checked and plug-ins are not installed.
 
 Opening or reopening Update Shelf shows saved results without starting an update check. Manual checks and separately enabled scheduled checks remain available. Saved results cannot authorize installation until refreshed. Broader release QA remains partial.
 
-The app and disk image are Developer ID signed, Apple-notarized and stapled. The in-app update feed offers build119.
+The app and disk image are Developer ID signed, Apple-notarized and stapled. The in-app update feed offers build121.
 
 Source coverage varies. App Store updates remain managed by Apple; unsupported app updaters are handoffs, not direct installs. Broader keyboard/VoiceOver, second-Mac/standard-account, natural timer delivery across sleep, and failure/denial coverage remain unfinished. Stable designation does not claim those checks passed.
 
@@ -31,8 +31,8 @@ Not every Mac app or plug-in is covered. An update candidate is not necessarily 
 
 ## Install
 
-[Download Update-Shelf-0.9.5-Apple-Silicon.dmg](https://github.com/WEBServices-ORG/update-shelf-releases/releases/download/v0.9.5-build119/Update-Shelf-0.9.5-Apple-Silicon.dmg), open it, and drag Update Shelf into Applications.
+[Download Update-Shelf-0.9.6-Apple-Silicon.dmg](https://github.com/WEBServices-ORG/update-shelf-releases/releases/download/v0.9.6-build121/Update-Shelf-0.9.6-Apple-Silicon.dmg), open it, and drag Update Shelf into Applications.
 
-DMG SHA-256: `155243faaa0653acae80ed9b0dbee7cd0f0f82ecc2ff90fd1143ef25f2437cad`
+DMG SHA-256: `a78f06a7a7ef43872db0b5f65c56a0f5f5b98753241da8ca45190fae3109a53f`
 
-The public release shelf retains 0.9.0, 0.9.1, 0.9.2, 0.9.3, 0.9.4 and 0.9.5. Earlier releases and their downloadable assets were removed at the owner’s request; the primary download points to 0.9.5.
+The public release shelf retains 0.9.0, 0.9.1, 0.9.2, 0.9.3, 0.9.4, 0.9.5 and 0.9.6. Earlier releases and their downloadable assets were removed at the owner’s request; the primary download points to 0.9.6.
