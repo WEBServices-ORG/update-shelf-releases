@@ -4,17 +4,17 @@
 
 ## Current stable release
 
-**Update Shelf 0.9.8 (build 128)** for Apple silicon Macs. Free download; Support development is optional.
+**Update Shelf 0.9.9 (build 141)** for Apple silicon Macs. Free download; Support development is optional.
 
-[Download page](https://webservices-org.github.io/update-shelf-releases/) · [Release notes](https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.8-build128)
+[Download page](https://webservices-org.github.io/update-shelf-releases/) · [Release notes](https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.9-build141)
 
-New in 0.9.8: broader Mac App Store detection and Homebrew build comparisons; reviewed direct stable Sparkle ZIP updates with artifact/signature checks and retained app recovery; detection-only cask comparisons; explicit Sparkle preview selection; official TONE3000 release comparisons across installed plug-in formats. Other plug-ins remain inventory/vendor handoffs and are not installed.
+New in 0.9.9: Plug-in release checks for mapped Melda effects, RX 12, Ozone 12, BIAS X and TONE3000; reviewed vendor-manager handoffs; exact installed-file verification after vendor updates; custom scan folders and exclusions; per-module version and architecture diagnostics. Plug-in installation stays with the vendor. Unsupported products and unknown compatibility remain explicit.
 
 Direct updates require a user-owned target and a supported single-app ZIP. DMG/PKG/delta, nested apps and framework-link archives remain external. Recovery keeps the app bundle, not documents or settings, and requires the recorded destination to remain present.
 
 Opening or reopening Update Shelf shows saved results without starting an update check. Manual checks and separately enabled scheduled checks remain available. Saved results cannot authorize installation until refreshed. Broader release QA remains partial.
 
-The app and disk image are Developer ID signed, Apple-notarized and stapled. The in-app update feed offers build128.
+The app and disk image are Developer ID signed, Apple-notarized and stapled. The in-app update feed offers build141.
 
 Source coverage varies. App Store updates remain managed by Apple; unsupported app updaters are handoffs, not direct installs. Broader keyboard/VoiceOver, second-Mac/standard-account, natural timer delivery across sleep, and failure/denial coverage remain unfinished. Stable designation does not claim those checks passed.
 
@@ -33,8 +33,8 @@ Not every Mac app or plug-in is covered. An update candidate is not necessarily 
 
 ## Install
 
-[Download Update-Shelf-0.9.8-Apple-Silicon.dmg](https://github.com/WEBServices-ORG/update-shelf-releases/releases/download/v0.9.8-build128/Update-Shelf-0.9.8-Apple-Silicon.dmg), open it, and drag Update Shelf into Applications.
+[Download Update-Shelf-0.9.9-Apple-Silicon.dmg](https://github.com/WEBServices-ORG/update-shelf-releases/releases/download/v0.9.9-build141/Update-Shelf-0.9.9-Apple-Silicon.dmg), open it, and drag Update Shelf into Applications.
 
-DMG SHA-256: `52d1158e3d37e6bb10b494069ebc5d7b76e9f01bac42c9a7788f4c37295890b2`
+DMG SHA-256: `ef36fe828aff8043753448a90a66f1eed45f9a2c290d3fda66cd6fcd7ab42d55`
 
-Earlier releases remain historical; the primary download points to0.9.8/build128. See STATE.md for verification status and remaining QA limits.
+Earlier releases remain historical; the primary download points to0.9.9/build141. See STATE.md for verification status and remaining QA limits.
