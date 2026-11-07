@@ -4,17 +4,17 @@
 
 ## Current stable release
 
-**Update Shelf 0.9.12 (build 146)** for Apple silicon Macs. Free download; Support development is optional.
+**Update Shelf 0.9.13 (build 147)** for Apple silicon Macs. Free download; Support development is optional.
 
-[Download page](https://webservices-org.github.io/update-shelf-releases/) · [Release notes](https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.12-build146)
+[Download page](https://webservices-org.github.io/update-shelf-releases/) · [Release notes](https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.13-build147)
 
-New in 0.9.12: the details panel stays open, and you can resize it by dragging its divider. Re-scan all checks the current filtered list without installing anything. Plug-ins now lives under Update tools. App Store rows retain their adjacent Re-scan and app-specific Open App Store buttons. You can also check supported audio plug-ins, open their vendor updater after review, and verify the installed files afterward. Custom folders, exclusions and file details help you understand what is installed. Coverage varies by product; plug-in installation stays with the vendor.
+New in 0.9.13: resize the top controls and bottom activity/status panels with horizontal dividers. Both panels scroll when reduced. The details panel stays open, and the side-by-side dividers remain adjustable. Re-scan all checks the current filtered list without installing anything. Plug-ins now lives under Update tools. App Store rows retain their adjacent Re-scan and app-specific Open App Store buttons. You can also check supported audio plug-ins, open their vendor updater after review, and verify the installed files afterward. Custom folders, exclusions and file details help you understand what is installed. Coverage varies by product; plug-in installation stays with the vendor.
 
 Direct updates require a user-owned target and a supported single-app ZIP. DMG/PKG/delta, nested apps and framework-link archives remain external. Recovery keeps the app bundle, not documents or settings, and requires the recorded destination to remain present.
 
 Opening or reopening Update Shelf shows saved results without starting an update check. Manual checks and separately enabled scheduled checks remain available. Saved results cannot authorize installation until refreshed. Broader release QA remains partial.
 
-The app and disk image are Developer ID signed, Apple-notarized and stapled. The in-app update feed offers build146.
+The app and disk image are Developer ID signed, Apple-notarized and stapled. The in-app update feed offers build147.
 
 Source coverage varies. App Store updates remain managed by Apple; unsupported app updaters are handoffs, not direct installs. Broader keyboard/VoiceOver, second-Mac/standard-account, natural timer delivery across sleep, and failure/denial coverage remain unfinished. Stable designation does not claim those checks passed.
 
@@ -33,8 +33,8 @@ Not every Mac app or plug-in is covered. An update candidate is not necessarily 
 
 ## Install
 
-[Download Update-Shelf-0.9.12-Apple-Silicon.dmg](https://github.com/WEBServices-ORG/update-shelf-releases/releases/download/v0.9.12-build146/Update-Shelf-0.9.12-Apple-Silicon.dmg), open it, and drag Update Shelf into Applications.
+[Download Update-Shelf-0.9.13-Apple-Silicon.dmg](https://github.com/WEBServices-ORG/update-shelf-releases/releases/download/v0.9.13-build147/Update-Shelf-0.9.13-Apple-Silicon.dmg), open it, and drag Update Shelf into Applications.
 
-DMG SHA-256: `1d976b8f37332ae80a82de6dc17e5d79d0661c546b72edeb66e3d40f26d68cd5`
+DMG SHA-256: `bc8c54a37fb517cbbe5119b439333b578ca6d4f9239382a16bac23392dd828bd`
 
-Earlier releases remain historical; the primary download points to0.9.12/build146. See STATE.md for verification status and remaining QA limits.
+Earlier releases remain historical; the primary download points to0.9.13/build147. See STATE.md for verification status and remaining QA limits.
