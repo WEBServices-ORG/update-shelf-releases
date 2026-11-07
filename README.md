@@ -8,7 +8,7 @@
 
 [Download page](https://webservices-org.github.io/update-shelf-releases/) · [Release notes](https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.9-build141)
 
-New in 0.9.9: Plug-in release checks for mapped Melda effects, RX 12, Ozone 12, BIAS X and TONE3000; reviewed vendor-manager handoffs; exact installed-file verification after vendor updates; custom scan folders and exclusions; per-module version and architecture diagnostics. Plug-in installation stays with the vendor. Unsupported products and unknown compatibility remain explicit.
+New in 0.9.9: check supported audio plug-ins, open their vendor updater after review, and verify the installed files afterward. Custom folders, exclusions and file details help you understand what is installed. Coverage varies by product; plug-in installation stays with the vendor.
 
 Direct updates require a user-owned target and a supported single-app ZIP. DMG/PKG/delta, nested apps and framework-link archives remain external. Recovery keeps the app bundle, not documents or settings, and requires the recorded destination to remain present.
 
