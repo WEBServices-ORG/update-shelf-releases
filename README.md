@@ -4,7 +4,7 @@
 
 ## Current stable release
 
-**Update Shelf 0.9.14 (build 152)** for Apple silicon Macs running macOS 14 or later. Free download; Support development is optional.
+**Update Shelf 0.9.14 (build 152)** for Apple silicon Macs running macOS 14 or later. Free download; [Support development via PayPal](https://www.paypal.com/ncp/payment/VRVYW4BB3CH3L) is optional.
 
 [Download page](https://webservices-org.github.io/update-shelf-releases/) · [Release notes](https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.14-build152)
 
