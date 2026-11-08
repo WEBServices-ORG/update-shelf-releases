@@ -4,11 +4,11 @@
 
 ## Current stable release
 
-**Update Shelf 0.9.14 (build 152)** for Apple silicon Macs. Free download; Support development is optional.
+**Update Shelf 0.9.14 (build 152)** for Apple silicon Macs running macOS 14 or later. Free download; Support development is optional.
 
 [Download page](https://webservices-org.github.io/update-shelf-releases/) · [Release notes](https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.14-build152)
 
-New in 0.9.14: the top controls and footer automatically fit their content. Launch app, Re-scan, Re-scan all, Postpone updates and Ignore controls share one action row, with preferences to the right of the scan buttons. Narrow windows scroll the row horizontally. The details panel stays open, and the side-by-side dividers remain adjustable. Re-scan all checks the current filtered list without installing anything. Plug-ins now lives under Update tools. App Store rows retain their adjacent Re-scan and app-specific Open App Store buttons. You can also check supported audio plug-ins, open their vendor updater after review, and verify the installed files afterward. Custom folders, exclusions and file details help you understand what is installed. Coverage varies by product; plug-in installation stays with the vendor.
+New in 0.9.14: the top controls and footer automatically fit their content. Launch app, Re-scan, Re-scan all, Postpone updates and Ignore controls share one action row, with preferences to the right of the scan buttons. Narrow windows scroll the row horizontally. The details panel stays open, and the side-by-side dividers remain adjustable. Re-scan all checks the current filtered list without installing anything. Plug-ins now lives under Update tools. App Store rows retain their adjacent Re-scan and app-specific Open App Store buttons. You can also check supported audio plug-ins, open their vendor manager or official page after review, and verify the installed files afterward. Custom folders, exclusions and file details help you understand what is installed. Coverage varies by product; plug-in installation stays with the vendor. Processor architecture does not establish macOS or DAW compatibility; that compatibility remains unknown.
 
 Direct updates require a user-owned target and a supported single-app ZIP. DMG/PKG/delta, nested apps and framework-link archives remain external. Recovery keeps the app bundle, not documents or settings, and requires the recorded destination to remain present.
 
