@@ -1,3 +1,10 @@
+## v0.9.17-docs.3 — Chromium verification and checksum correction
+
+Native Chromium visibly renders0.9.17, build157, the fresh screenshot and correct
+download link. Browser inspection exposed the previous DMG checksum in the page;
+replaced with verified0.9.17 hash88dca1700b91a5df95f1cef10f572016b78fbc9e8ec7bd0e7ee72ae6d840edbe.
+No application or GUI changes. Final browser reload pending deployment.
+
 ## v0.9.17-docs.2 — final page label correction
 
 Independent metadata review found the footer still said Build156; corrected to
