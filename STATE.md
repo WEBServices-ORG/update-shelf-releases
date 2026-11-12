@@ -1,3 +1,9 @@
+Version: v0.9.16/build155 — final artifacts verified; publication in progress.
+Restored older GUI and guarded uv pin correction. App and DMG Apple Accepted,
+stapled;502tests/80suites and native installed verification pass. Source14d31ee.
+README, page and feed aligned; historical720p preview retained. Broader QA
+and seven attention issues remain separate.
+
 Documentation checkpoint: v0.9.15-docs.1 — README verification summary aligned
 with source repository. Published app remains0.9.15/build153; no binary, feed
 or page changes. Documentation assertions and diff checks pass.

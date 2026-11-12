@@ -4,19 +4,19 @@
 
 ## Current stable release
 
-**Update Shelf 0.9.15 (build 153)** for Apple silicon Macs running macOS 14 or later. Free download; [Support development via PayPal](https://www.paypal.com/ncp/payment/VRVYW4BB3CH3L) is optional.
+**Update Shelf 0.9.16 (build 155)** for Apple silicon Macs running macOS 14 or later. Free download; [Support development via PayPal](https://www.paypal.com/ncp/payment/VRVYW4BB3CH3L) is optional.
 
-[Download page](https://webservices-org.github.io/update-shelf-releases/) · [Release notes](https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.15-build153)
+[Download page](https://webservices-org.github.io/update-shelf-releases/) · [Release notes](https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.16-build155)
 
-New in 0.9.15: compact counts give the app list more room. Checked updates and the focused app have separate controls; the header names the focused app and shows the review count. Launch and Re-scan follow that app. More groups postponement, ignore and restore actions. Failed or stopped queues retain a visible warning after closing their details. Secondary actions are quieter, and compact windows keep the main controls visible. Existing source coverage and installation safeguards are unchanged.
+New in 0.9.16: Restores the older three-card layout and single blue action row. Fixes browser-use and other simple exact-pinned uv updates by reviewing replacement of the old pin, retaining the Python interpreter, and checking settings again before installation. Custom pinned settings remain protected. Failed or stopped queues retain their warnings.
 
 Direct updates require a user-owned target and a supported single-app ZIP. DMG/PKG/delta, nested apps and framework-link archives remain external. Recovery keeps the app bundle, not documents or settings, and requires the recorded destination to remain present.
 
 Opening or reopening Update Shelf shows saved results without starting an update check. Manual checks and separately enabled scheduled checks remain available. Saved results cannot authorize installation until refreshed. Broader release QA remains partial.
 
-The app and disk image are Developer ID signed, Apple-notarized and stapled. The in-app update feed offers build153. All four public release files match the verified distribution artifacts; the live download page and feed have been checked.
+The app and disk image are Developer ID signed, Apple-notarized and stapled. The in-app update feed offers build155. All four public release files match the verified distribution artifacts; the live download page and feed have been checked.
 
-493 automated tests across 78 suites, independent review, native layout, changed-header keyboard and scoped VoiceOver checks pass.
+502 automated tests across 80 suites, independent review, native pin-update and cancellation checks pass. The restored layout and installed build155 were verified on the owner's Mac.
 
 Source coverage varies. App Store updates remain managed by Apple; unsupported app updaters are handoffs, not direct installs. Broader keyboard/VoiceOver, second-Mac/standard-account, natural timer delivery across sleep, and failure/denial coverage remain unfinished. Stable designation does not claim those checks passed.
 
@@ -24,7 +24,7 @@ Source coverage varies. App Store updates remain managed by Apple; unsupported a
 
 ![Update Shelf previous interface in version 0.9.14](docs/assets/update-shelf-0.9.14-screenshot-720p.png)
 
-720p preview (1280 × 720) of the previous 0.9.14 interface. Version 0.9.15 introduces the compact layout described above.
+720p preview (1280 × 720) of the previous 0.9.14 interface. Version 0.9.16 restores this layout; the image remains a historical 0.9.14 capture.
 
 ## What the app does
 
@@ -41,8 +41,8 @@ Not every Mac app or plug-in is covered. An update candidate is not necessarily 
 
 ## Install
 
-[Download Update-Shelf-0.9.15-Apple-Silicon.dmg](https://github.com/WEBServices-ORG/update-shelf-releases/releases/download/v0.9.15-build153/Update-Shelf-0.9.15-Apple-Silicon.dmg), open it, and drag Update Shelf into Applications.
+[Download Update-Shelf-0.9.16-Apple-Silicon.dmg](https://github.com/WEBServices-ORG/update-shelf-releases/releases/download/v0.9.16-build155/Update-Shelf-0.9.16-Apple-Silicon.dmg), open it, and drag Update Shelf into Applications.
 
-DMG SHA-256: `46b5edc07b81c88e468fe60055c9f6983ae248c825cad473c651db5f1852bdcc`
+DMG SHA-256: `2209339dc644e0e649e3eded51b04a828ac19ce9b495ae1db3a34b15e0f7d2f0`
 
-Earlier releases remain historical; the primary download points to0.9.15/build153. See STATE.md for verification status and remaining QA limits.
+Earlier releases remain historical; the primary download points to0.9.16/build155. See STATE.md for verification status and remaining QA limits.
