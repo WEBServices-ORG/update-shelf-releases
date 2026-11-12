@@ -5,7 +5,8 @@ matching YomVezman and GainDeck. Links and app 0.9.17/build157 remain unchanged.
 Website-only presentation update; no application architecture or roadmap change.
 App introduction and feature descriptions rewritten around visitor benefits.
 Removed implementation-detail lists while preserving installation/coverage limits.
-Independent layout review passed; final live-copy verification pending.
+Independent layout and copy reviews passed. Pages 43331861348 succeeded; live
+HTML exactly matches source. Browser confirms updated intro and stacked buttons.
 
 ## v0.9.17-docs.4 — Chromium verification complete
 
