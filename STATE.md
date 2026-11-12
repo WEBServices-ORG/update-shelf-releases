@@ -1,9 +1,13 @@
-Version: v0.9.15/build153 — publication prepared; artifact verification complete.
+Version: v0.9.15/build153 — publication COMPLETE; artifact verification complete.
 App and DMG Apple Accepted, stapled and Gatekeeper accepted. ZIP/DMG integrity,
 mounted contents and Sparkle signature pass.493tests and scoped native/keyboard/
 VoiceOver acceptance pass; broader product-wide QA remains separate. Updated
 README, page and feed. Existing720p preview labelled previous0.9.14 interface.
-Public upload/download and Pages verification pending.
+Stable/latest published2026-11-12T12:10:09Z. All four public downloads match
+final files. Pages43215470399 succeeded for3c92aa7; live HTML/feed/720p image
+match committed bytes. Clean Chromium confirms dark page,0.9.15/build153,
+correct download and previous-interface caption. Task tab closed; installed
+app preserved. Source release tag01a3565. Broader product-wide QA remains open.
 
 Documentation checkpoint: v0.9.14-site.7 — removed full-size screenshot links from Pages and README at owner request. Only 720p previews are presented; existing original assets remain unlinked. Verified published README/index bytes, 720p-only screenshot sources, absence of image anchors, successful Pages deployment and cache-busted live HTML match. No browser visual recheck. Application, feed and roadmap unchanged.
 
