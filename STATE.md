@@ -1,3 +1,12 @@
+## v0.9.17/build157 — corrected owner-selected version
+
+Owner requires patch increments by default, including features. Rebuilt unchanged
+application source as0.9.17/build157. Developer ID app and DMG are notarized,
+stapled and Gatekeeper accepted. ZIP/DMG integrity pass. Sparkle uses build157
+rather than display version for update ordering; independent review confirms
+157 supersedes156. Publication and real in-app upgrade verification pending.
+The720p screenshot/page/README metadata now identifies0.9.17. ROADMAP aligned.
+
 ## Publication verification — v0.10.0-docs.1
 
 Published stable/latest 0.10.0/build156 at 2026-11-12T22:20:06Z.
