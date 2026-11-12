@@ -20,9 +20,9 @@ Source coverage varies. App Store updates remain managed by Apple; unsupported a
 
 ## App preview
 
-[![Update Shelf Update candidates view](docs/assets/update-shelf-0.9.14-screenshot-720p.png)](https://webservices-org.github.io/update-shelf-releases/assets/update-shelf-0.9.14-screenshot.png?v=fhd1)
+![Update Shelf Update candidates view](docs/assets/update-shelf-0.9.14-screenshot-720p.png)
 
-720p preview (1280 × 720). Click the image to view the Full HD original (1920 × 1080).
+720p preview (1280 × 720).
 
 ## What the app does
 
