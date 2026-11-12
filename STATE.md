@@ -3,7 +3,9 @@
 Download and Support hero buttons stack vertically, left aligned with a 12px gap,
 matching YomVezman and GainDeck. Links and app 0.9.17/build157 remain unchanged.
 Website-only presentation update; no application architecture or roadmap change.
-Live desktop/narrow browser verification pending.
+App introduction and feature descriptions rewritten around visitor benefits.
+Removed implementation-detail lists while preserving installation/coverage limits.
+Independent layout review passed; final live-copy verification pending.
 
 ## v0.9.17-docs.4 — Chromium verification complete
 
