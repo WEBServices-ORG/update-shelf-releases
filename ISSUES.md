@@ -1,3 +1,9 @@
+## Open: build156 website visual verification
+
+Release and public byte checks pass. Fresh browser rendering remains blocked by
+unavailable CUA browser access host. Recheck the deployed page in Clean Chromium
+when access is restored. This does not affect verified native app behavior.
+
 ## RELEASE155-VISUAL — open
 
 Public downloads, HTML, feed and720p bytes verified. Fresh browser rendering check

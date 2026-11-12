@@ -1,3 +1,17 @@
+## Publication verification — v0.10.0-docs.1
+
+Published stable/latest 0.10.0/build156 at 2026-11-12T22:20:06Z.
+Source release/main f6cca17; distribution release tag and page commit 87cb2d0.
+All four unauthenticated release downloads byte-match signed final artifacts.
+Pages run 43318943273 succeeded. Cache-busted live HTML, appcast and screenshot
+byte-match committed files; image dimensions are 1280 by 720. README updated
+in both repositories. No original-size screenshot links added.
+506 tests/82 suites, native Stop/recovery/layout and independent review pass.
+Owner installation remains build155; release QA apps were quit normally.
+ROADMAP remains aligned. Delivery is published; overall acceptance is PARTIAL:
+fresh browser-rendered page verification is blocked because CUA reports the
+browser access host unavailable. No alternate browser was opened.
+
 Version: v0.10.0/build156 — release prepared. Native Stop/full-check and re-scan
 recovery verified.506tests82suites; app/DMG notarized and stapled. Fresh1280x720
 screenshot shows horizontal controls. Publication verification pending.
