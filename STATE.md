@@ -1,3 +1,8 @@
+## v0.9.17-docs.2 — final page label correction
+
+Independent metadata review found the footer still said Build156; corrected to
+Build157. README, feed, screenshot metadata and links all identify0.9.17/build157.
+
 ## v0.9.17-docs.1 — published and in-app upgrade verified
 
 Published stable/latest0.9.17/build157 at2026-11-12T22:38:30Z, source455bd00,
