@@ -1,3 +1,8 @@
+## RELEASE155-VISUAL — open
+
+Public downloads, HTML, feed and720p bytes verified. Fresh browser rendering check
+blocked by unavailable CUA browser access host; no alternative browser used.
+
 # Website issues
 
 ## SITE-COPY-096 — resolved 2026-11-05

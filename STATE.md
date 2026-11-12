@@ -1,3 +1,18 @@
+## Publication v0.9.16/build155 — 2026-11-12
+
+Published stable/latest at2026-11-12T21:34:40Z. All four unauthenticated downloads
+match final artifacts. Pages43311628281 succeeded for05300fb; cache-busted live
+HTML, appcast and720p image byte-match committed files. Independent metadata review
+approved after correcting build command/hash and adding the release record.
+Source release tag14d31ee; source main includes distribution documentation.
+GitHub created immutable distribution tag at8e5a87b during release promotion;
+website content is05300fb. A later local tag push was rejected and no remote tag
+was moved. Fresh documentation tag records final state. Installed155 unchanged.
+
+Publication and byte verification complete. Fresh rendered website check is
+BLOCKED: CUA reports browser access host unavailable. No alternate browser opened.
+Broader QA and seven unrelated attention items remain open. ROADMAP aligned.
+
 Version: v0.9.16/build155 — final artifacts verified; publication in progress.
 Restored older GUI and guarded uv pin correction. App and DMG Apple Accepted,
 stapled;502tests/80suites and native installed verification pass. Source14d31ee.
