@@ -1,3 +1,14 @@
+## v0.9.17-docs.4 — Chromium verification complete
+
+Native Chromium visibly rendered the fresh screenshot and0.9.17 labels. Final
+browser state confirms build157, the correct DMG link and checksum
+88dca1700b91a5df95f1cef10f572016b78fbc9e8ec7bd0e7ee72ae6d840edbe.
+Corrected stale page checksum in3b50cce; independent review approved and
+Pages43323016833 succeeded. Earlier browser-access blocker is resolved using
+native Chromium. User began using other tabs; browser preserved for their work.
+Release numbering, publication,720p screenshot and actual in-app update scope
+COMPLETE. Broader product QA remains separate. ROADMAP unchanged/aligned.
+
 ## v0.9.17-docs.3 — Chromium verification and checksum correction
 
 Native Chromium visibly renders0.9.17, build157, the fresh screenshot and correct

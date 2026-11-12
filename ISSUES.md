@@ -1,3 +1,9 @@
+## Resolved: browser verification for0.9.17
+
+Chromium rendered the current release page and720p screenshot; version, build,
+download URL and corrected DMG checksum verified. Earlier website visual blocker
+is closed. Native browser use succeeded despite unavailable browser-access host.
+
 ## Open: build156 website visual verification
 
 Release and public byte checks pass. Fresh browser rendering remains blocked by
