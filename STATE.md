@@ -1,3 +1,7 @@
+Version: v0.10.0/build156 — release prepared. Native Stop/full-check and re-scan
+recovery verified.506tests82suites; app/DMG notarized and stapled. Fresh1280x720
+screenshot shows horizontal controls. Publication verification pending.
+
 ## Publication v0.9.16/build155 — 2026-11-12
 
 Published stable/latest at2026-11-12T21:34:40Z. All four unauthenticated downloads

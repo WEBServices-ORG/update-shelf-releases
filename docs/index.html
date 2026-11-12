@@ -74,21 +74,21 @@
           <h1>Your Mac updates.<br>One clear view.</h1>
           <p class="lead">Keep Mac apps, tools and audio plug-ins in view. Install supported updates here, or open the vendor updater or official page and check what changed afterward.</p>
           <div class="actions">
-            <a class="download" href="https://github.com/WEBServices-ORG/update-shelf-releases/releases/download/v0.9.16-build155/Update-Shelf-0.9.16-Apple-Silicon.dmg" download><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Download for Mac</a>
+            <a class="download" href="https://github.com/WEBServices-ORG/update-shelf-releases/releases/download/v0.10.0-build156/Update-Shelf-0.10.0-Apple-Silicon.dmg" download><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Download for Mac</a>
             <a class="support" href="https://www.paypal.com/ncp/payment/VRVYW4BB3CH3L" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Support development</a>
-            <div class="version">Stable v0.9.16 · macOS 14 or later · Apple silicon<br>Signed &amp; notarized app</div>
+            <div class="version">Stable v0.10.0 · macOS 14 or later · Apple silicon<br>Signed &amp; notarized app</div>
           </div>
-          <p class="version"><a href="https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.16-build155">What’s new in 0.9.16</a></p>
+          <p class="version"><a href="https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.10.0-build156">What’s new in 0.10.0</a></p>
         </div>
         <figure class="product" style="margin:0">
           <div class="product-screenshot">
-            <img src="assets/update-shelf-0.9.14-screenshot-720p.png" alt="Previous Update Shelf 0.9.14 interface showing the Update candidates view." width="1280" height="720" fetchpriority="high">
+            <img src="assets/update-shelf-0.10.0-screenshot-720p.png" alt="Update Shelf 0.10.0 showing Stop scanning beside Check for updates, and Launch app beside Re-scan." width="1280" height="720" fetchpriority="high">
           </div>
-          <figcaption class="screenshot-caption">Layout preview from 0.9.14 · Restored in 0.9.16</figcaption>
+          <figcaption class="screenshot-caption">Current release: 0.10.0 · Stop scanning and horizontal app actions</figcaption>
         </figure>
       </section>
       <section class="features" aria-label="What Update Shelf does">
-        <div class="feature"><b>Find supported updates</b><p>See Mac apps, Homebrew apps and tools, global npm packages, uv tools, and connected GitHub releases in one library. Search and sort by name or app-bundle size. Keep the details panel open and adjust the sidebar and details dividers. Top controls and the footer fit their content automatically. The older three-card summary and single action row are restored. Simple exact-pinned uv updates have an explicit pin-replacement review. Coverage depends on each source.</p></div>
+        <div class="feature"><b>Find supported updates</b><p>See Mac apps, Homebrew apps and tools, global npm packages, uv tools, and connected GitHub releases in one library. Search and sort by name or app-bundle size. Keep the details panel open and adjust the sidebar and details dividers. Top controls and the footer fit their content automatically. Stop scanning sits beside Check for updates; Launch app sits beside Re-scan. The older three-card summary is retained. Simple exact-pinned uv updates have an explicit pin-replacement review. Coverage depends on each source.</p></div>
         <div class="feature"><b>Install eligible updates</b><p>Review supported Homebrew, npm, uv and eligible signed Sparkle ZIP updates, then run them one at a time. Direct app updates retain the previous app bundle for recovery. Results say whether each change was verified, failed, or still needs checking.</p></div>
         <div class="feature"><b>Know where to go next</b><p>Open an App Store app’s own page directly from its update row or detail panel. Use Re-scan beside the row’s store button to check that app again without installing anything. If its store ID is unavailable, open App Store Updates instead. Updates stay with Apple. Vendor-managed and unsupported updates need their own app, updater, or website. Finding an update does not mean Update Shelf can install it.</p></div>
         <div class="feature"><b>Choose when to update</b><p>Postpone an app until tomorrow or next week, ignore an app, or skip a particular version. These choices control Update Shelf; they do not disable another app’s own updater.</p></div>
@@ -100,10 +100,10 @@
         <div class="feature"><b>Understand your plug-in library</b><p>Choose scan folders and exclusions. Inspect each plug-in file’s version and processor architecture, and spot mixed versions across formats. Processor architecture does not establish macOS or DAW compatibility; that compatibility remains unknown.</p></div>
         <div class="feature"><b>Current testing status</b><p>The current release is signed and notarized, with automated tests and targeted app checks completed. Broader accessibility, account, sleep/scheduling, and failure-recovery testing remains in progress.</p></div>
       </section>
-      <p class="version"><a href="https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.9.16-build155">What’s new in 0.9.16</a><br>New in 0.9.16: Restores the older three-card layout and single blue action row. Fixes browser-use and other simple exact-pinned uv updates by reviewing replacement of the old pin, retaining the Python interpreter, and checking settings again before installation. Custom pinned settings remain protected. Failed or stopped queues retain their warnings.</p>
+      <p class="version"><a href="https://github.com/WEBServices-ORG/update-shelf-releases/releases/tag/v0.10.0-build156">What’s new in 0.10.0</a><br>New in 0.10.0: Stop scanning now sits beside Check for updates. It prevents further checks after the current bounded command finishes, keeps previous completed results, and marks the interrupted scan incomplete. Launch app and Re-scan remain side by side. The older three-card layout and guarded uv pin correction are retained.</p>
       <section class="trust" id="security">
-        <div class="trust-copy"><strong>Developer ID signed. App and disk image notarized by Apple.</strong><span>Version 0.9.16 · Build 155 · macOS on Apple silicon<br>The app and the disk image are both notarized and stapled.</span></div>
-        <div class="hash">SHA-256<br>2209339dc644e0e649e3eded51b04a828ac19ce9b495ae1db3a34b15e0f7d2f0</div>
+        <div class="trust-copy"><strong>Developer ID signed. App and disk image notarized by Apple.</strong><span>Version 0.10.0 · Build 156 · macOS on Apple silicon<br>The app and the disk image are both notarized and stapled.</span></div>
+        <div class="hash">SHA-256<br>f1f8c912bcaac8e1f41e8c11f0d466b6bfd32475c8ded6eb23b18a3ea38f069c</div>
       </section>
     </main>
     <footer><div class="publisher"><img src="assets/webservices-mark.png" alt=""><span>A WEBServices product</span></div><div class="footer-links"><a href="https://www.paypal.com/ncp/payment/VRVYW4BB3CH3L" target="_blank" rel="noopener noreferrer">Support development</a><span>© 2026 WEBServices</span></div></footer>
