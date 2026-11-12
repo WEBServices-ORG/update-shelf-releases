@@ -1,3 +1,19 @@
+## v0.9.17-docs.1 — published and in-app upgrade verified
+
+Published stable/latest0.9.17/build157 at2026-11-12T22:38:30Z, source455bd00,
+distributiondc9a4ad. Four public downloads byte-match final signed artifacts.
+Pages43321813931 succeeded; live feed identifies build157/display0.9.17.
+Actual isolated0.10.0/build156 app used the public feed: offered0.9.17, downloaded,
+Install and Relaunch completed, About showed0.9.17(157). A second check reported
+0.9.17 newest. Signature verification passed on the upgraded copy. Owner's
+/Applications installation stayed156; test copy quit normally and original reopened.
+Fresh screenshot captured from the upgraded157 app, resized to1280x720 and visually
+inspected; filename/caption/alt/README identify0.9.17. No full-size links.
+Application code unchanged;506tests/82suites and prior native functional evidence
+remain applicable. Version ordering independently reviewed. ROADMAP aligned.
+Public browser rendering remains unverified due unavailable CUA browser host;
+this existing website check stays open separately from the verified in-app update.
+
 ## v0.9.17/build157 — corrected owner-selected version
 
 Owner requires patch increments by default, including features. Rebuilt unchanged
