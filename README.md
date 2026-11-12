@@ -18,6 +18,12 @@ The app and disk image are Developer ID signed, Apple-notarized and stapled. The
 
 Source coverage varies. App Store updates remain managed by Apple; unsupported app updaters are handoffs, not direct installs. Broader keyboard/VoiceOver, second-Mac/standard-account, natural timer delivery across sleep, and failure/denial coverage remain unfinished. Stable designation does not claim those checks passed.
 
+## App preview
+
+[![Update Shelf Update candidates view](docs/assets/update-shelf-0.9.14-screenshot-720p.png)](https://webservices-org.github.io/update-shelf-releases/assets/update-shelf-0.9.14-screenshot.png?v=fhd1)
+
+720p preview (1280 × 720). Click the image to view the Full HD original (1920 × 1080).
+
 ## What the app does
 
 Update Shelf finds supported updates for Mac apps and tools, installs eligible updates after review, and directs you to the responsible app or store for the rest.
