@@ -1,3 +1,10 @@
+## v0.9.17-docs.5 — consistent product buttons
+
+Download and Support hero buttons stack vertically, left aligned with a 12px gap,
+matching YomVezman and GainDeck. Links and app 0.9.17/build157 remain unchanged.
+Website-only presentation update; no application architecture or roadmap change.
+Live desktop/narrow browser verification pending.
+
 ## v0.9.17-docs.4 — Chromium verification complete
 
 Native Chromium visibly rendered the fresh screenshot and0.9.17 labels. Final
