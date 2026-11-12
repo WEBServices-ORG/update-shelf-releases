@@ -1,3 +1,10 @@
+Version: v0.9.15/build153 — publication prepared; artifact verification complete.
+App and DMG Apple Accepted, stapled and Gatekeeper accepted. ZIP/DMG integrity,
+mounted contents and Sparkle signature pass.493tests and scoped native/keyboard/
+VoiceOver acceptance pass; broader product-wide QA remains separate. Updated
+README, page and feed. Existing720p preview labelled previous0.9.14 interface.
+Public upload/download and Pages verification pending.
+
 Documentation checkpoint: v0.9.14-site.7 — removed full-size screenshot links from Pages and README at owner request. Only 720p previews are presented; existing original assets remain unlinked. Verified published README/index bytes, 720p-only screenshot sources, absence of image anchors, successful Pages deployment and cache-busted live HTML match. No browser visual recheck. Application, feed and roadmap unchanged.
 
 Documentation checkpoint: v0.9.14-site.6 — 720p (1280x720) inline screenshot preview; full-size links retain the 1920x1080 original. README also includes a 720p preview. VERIFIED: cache-busted live Pages HTML and preview bytes match published files; GitHub README API matches local README; sips confirms 1280x720. Full-size targets retain the unchanged original. No browser visual recheck for this image-source-only change. No application, feed, release or architecture change.
