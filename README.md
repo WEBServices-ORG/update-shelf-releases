@@ -14,7 +14,9 @@ Direct updates require a user-owned target and a supported single-app ZIP. DMG/P
 
 Opening or reopening Update Shelf shows saved results without starting an update check. Manual checks and separately enabled scheduled checks remain available. Saved results cannot authorize installation until refreshed. Broader release QA remains partial.
 
-The app and disk image are Developer ID signed, Apple-notarized and stapled. The in-app update feed offers build153.
+The app and disk image are Developer ID signed, Apple-notarized and stapled. The in-app update feed offers build153. All four public release files match the verified distribution artifacts; the live download page and feed have been checked.
+
+493 automated tests across 78 suites, independent review, native layout, changed-header keyboard and scoped VoiceOver checks pass.
 
 Source coverage varies. App Store updates remain managed by Apple; unsupported app updaters are handoffs, not direct installs. Broader keyboard/VoiceOver, second-Mac/standard-account, natural timer delivery across sleep, and failure/denial coverage remain unfinished. Stable designation does not claim those checks passed.
 

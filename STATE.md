@@ -1,3 +1,7 @@
+Documentation checkpoint: v0.9.15-docs.1 — README verification summary aligned
+with source repository. Published app remains0.9.15/build153; no binary, feed
+or page changes. Documentation assertions and diff checks pass.
+
 Version: v0.9.15/build153 — publication COMPLETE; artifact verification complete.
 App and DMG Apple Accepted, stapled and Gatekeeper accepted. ZIP/DMG integrity,
 mounted contents and Sparkle signature pass.493tests and scoped native/keyboard/
